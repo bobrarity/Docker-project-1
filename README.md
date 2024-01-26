@@ -20,14 +20,14 @@
 ## Setup and Running
 ### Training
 Build the Docker image for training: 
-- docker build -t iris_training_image -f training/Dockerfile .
+- docker build -t iris_training_image .
     
 Run the training container:
 - docker run -v /path/to/shared_folder:/app/shared_folder iris_training_image
 
 ### Inference
 Build the Docker image for inference:
-- docker build -t iris_inference_image -f inference/Dockerfile .
+- docker build -t iris_inference_image .
 
 Run the inference container:
 - docker run -v /path/to/shared_folder:/app/shared_folder iris_inference_image
