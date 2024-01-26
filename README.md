@@ -18,6 +18,8 @@
 - `README.md`: Project description and instructions.
 
 ## Setup and Running
+- Download the ZIP file of repo
+- Create a folder named shared_folder in main folder
 ### Training
 First, navigate to the 'training' directory.
 Build the Docker image for training: 
