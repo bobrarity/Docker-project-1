@@ -1,8 +1,5 @@
 # Iris Classification Project
 
-## Overview
-Brief description of the project.
-
 ## Features
 - Data processing script for the Iris dataset.
 - Dockerized environment for training and inference.
